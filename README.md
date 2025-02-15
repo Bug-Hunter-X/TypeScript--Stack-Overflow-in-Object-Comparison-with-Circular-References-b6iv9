@@ -1,0 +1,1 @@
+This repository demonstrates a common bug in TypeScript when comparing objects that contain circular references. The `compareObjects` function recursively compares objects, but it doesn't handle circular references correctly.  This leads to infinite recursion and a stack overflow error. The solution demonstrates a way to avoid this problem using a Set to track visited objects.
